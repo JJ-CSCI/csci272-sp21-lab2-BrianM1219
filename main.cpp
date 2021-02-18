@@ -9,6 +9,11 @@ enum class Compass {N, S, W, E};
 
 // Write your code here
 class GPS {
+private:
+double latitude {0.0, 90.0};
+public:
+double getLatitude() {return getLatitude();}
+double getLongitude() {return getLongitude();}
 
 };
 
